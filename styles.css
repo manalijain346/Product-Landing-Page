@@ -1,0 +1,206 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding:10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0 20px;
+}
+
+li {
+    margin-left: 30px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 {
+    display: flex;
+    margin-left: 40px;
+}
+
+.email {
+    display: block;
+    margin:auto;
+    padding:5px;
+    width:250px;
+}
+
+.submit {
+    display: flex;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+.features {
+    margin-top: 60px;
+}
+
+.feature1 {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.icon1 {
+    align-self: center;
+}
+
+.feature2 {
+    display:flex;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.icon2 {
+    align-self: center;
+}
+
+.feature3 {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.icon3 {
+    align-self: center;
+}
+
+.text1 {
+    margin-left :36px;
+}
+
+.text2 {
+    margin-left: 36px;
+}
+
+.text3 {
+    margin-left :36px;
+}
+
+.HowItWorks {
+    text-align: center;
+    margin: 40px auto;
+}
+
+ .container-4 {
+    display: flex;
+    text-align: center;
+    /* margin-top: 54px;  */
+    justify-content: space-evenly;
+ }
+
+ .box {
+     border: 2px solid black;
+     height: 280px;
+     width: 360px;
+     margin: 35px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .price-card {
+     background-color: #ddd;
+     width : 100%;
+     padding: 12px 0;
+     font-weight: bold;
+ }
+
+ .description {
+     margin: 10px 20px;
+ }
+
+ .button {
+     background-color: yellow;
+     margin: 20px;
+     padding: 10px;
+     width: 70px;
+     border: 1px solid black;
+ }
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 60px;
+    background-color: #DDDDDD
+    width: 100%;
+}
+
+.footer-nav {
+    justify-content: flex-end;
+    margin-left:auto;
+}
+
+.copyright {
+    margin-left: auto;
+}
+
+@media screen and (max-width : 450px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 100%;
+        margin:0px 54px;
+    }
+
+    #form {
+        margin-left: 25px;
+        padding: 0px 40px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #features {
+        margin-right: 40px;
+    }
+
+    .container-4 {
+        flex-direction :column;
+        margin: 40px;
+    }
+
+    .footer-nav {
+        flex-direction: row;
+        width: 420px;
+    }
+
+    .copyright {
+        width: 455px;
+        margin-left: 234px;
+    }
+}
+    
+        
+
+
+
+    
+
+    
+
+
+
+
+
