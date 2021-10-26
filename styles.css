@@ -1,8 +1,16 @@
+body {
+background-color: #EEEEEE;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 20px auto;
-    padding:10px;
+    padding: 20px;
+}
+
+.nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 ul {
@@ -20,21 +28,23 @@ a {
     text-decoration: none;
 }
 
+.main {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .container-1 {
     display: flex;
     justify-content: center;
 }
 
-.container-2 {
-    display: flex;
-    margin-left: 40px;
-}
-
 .email {
     display: block;
     margin:auto;
-    padding:5px;
-    width:250px;
+    padding:10px;
+    width:350px;
+    border-radius: 4px;
 }
 
 .submit {
@@ -43,51 +53,25 @@ a {
     padding: 5px;
     background-color: yellow;
     border-radius: 4px;
+    width: 120px;
+    justify-content: center;
+    font-weight: 900;
 }
 
 .features {
     margin-top: 60px;
 }
 
-.feature1 {
+.feature {
     display: flex;
-    margin: 0 auto;
-    width: 80%;
+    margin: 10px auto;
 }
 
-.icon1 {
+.icon {
     align-self: center;
 }
 
-.feature2 {
-    display:flex;
-    margin: 0 auto;
-    width: 80%;
-}
-
-.icon2 {
-    align-self: center;
-}
-
-.feature3 {
-    display: flex;
-    margin: 0 auto;
-    width: 80%;
-}
-
-.icon3 {
-    align-self: center;
-}
-
-.text1 {
-    margin-left :36px;
-}
-
-.text2 {
-    margin-left: 36px;
-}
-
-.text3 {
+.text {
     margin-left :36px;
 }
 
@@ -99,18 +83,15 @@ a {
  .container-4 {
     display: flex;
     text-align: center;
-    /* margin-top: 54px;  */
-    justify-content: space-evenly;
  }
 
  .box {
      border: 2px solid black;
-     height: 280px;
-     width: 360px;
-     margin: 35px;
+     margin: 24px 10px;
      display: flex;
      flex-direction: column;
      align-items: center;
+     width: 33.33%;
  }
 
  .price-card {
@@ -132,65 +113,16 @@ a {
      border: 1px solid black;
  }
 
-.footer-items {
-    display: flex;
-    flex-direction: column;
-    margin: 60px 60px;
-    background-color: #DDDDDD
-    width: 100%;
-}
+ .footer {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: right;
+ }
 
-.footer-nav {
-    justify-content: flex-end;
-    margin-left:auto;
-}
+ .footer-nav {
+     justify-content: right;
+ }
 
-.copyright {
-    margin-left: auto;
-}
-
-@media screen and (max-width : 450px) {
-    .header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .logo {
-        width: 100%;
-        margin:0px 54px;
-    }
-
-    #form {
-        margin-left: 25px;
-        padding: 0px 40px;
-    }
-
-    ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    #features {
-        margin-right: 40px;
-    }
-
-    .container-4 {
-        flex-direction :column;
-        margin: 40px;
-    }
-
-    .footer-nav {
-        flex-direction: row;
-        width: 420px;
-    }
-
-    .copyright {
-        width: 455px;
-        margin-left: 234px;
-    }
-}
     
         
 
