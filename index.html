@@ -26,11 +26,11 @@
 
     <main class="main">
         <div class="container-1">
-            <form id="form">
+            <form id="form" action=" https://www.freecodecamp.com/email-submit">
                 <h1> <label> Handcrafted, home-made masterpieces</h1> </label>
-                <input type="email" id="email" class="email" placeholder="enter your email address" required>
-                <input type="submit" action="https://www.freecodecamp.com/email-submit" id="submit" class="submit"
-                    value="Get Started">
+                <input type="email" id="email" class="email" name="email" placeholder="enter your email address"
+                    required>
+                <input type="submit" id="submit" class="submit" value="Get Started">
             </form>
         </div>
 
@@ -82,11 +82,12 @@
         </section>
 
         <section id="HowItWorks" class="container-3">
-            <div class="HowItWorks" id="video">
-                <iframe src="https://www.youtube.com/embed/y8Yv4pnO7qc" width="420" height="250"
+            <div class="HowItWorks">
+                <iframe src="https://www.youtube.com/embed/y8Yv4pnO7qc" id="video" height=300px width=400px
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                    allowfullscreen>
+                </iframe>
             </div>
         </section>
 
@@ -138,6 +139,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>

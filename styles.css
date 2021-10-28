@@ -6,6 +6,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    position: fixed;
+    top: 0px;
+    background-color: #eee;
+    width: 100%;
 }
 
 .nav-link {
@@ -45,7 +49,7 @@ a {
     display: block;
     margin: auto;
     padding: 10px;
-    width: 350px;
+    width: 300px;
     border-radius: 4px;
 }
 
@@ -60,7 +64,7 @@ a {
 }
 
 .features {
-    margin-top: 40px;
+    margin-top: 24px;
 }
 
 .feature-title {
@@ -71,7 +75,7 @@ a {
 
 .feature {
     display: flex;
-    margin: 30px auto;
+    margin: 10px auto;
 }
 
 .icon {
@@ -134,14 +138,18 @@ a {
     justify-content: right;
 }
 
-@media screen and (max-width: 768px ) {
+@media screen and (max-width: 480px ) {
     .header {
-        display: flex;
         flex-direction: column;
+        position: fixed;
+        top: 0;
+        background-color: #eee;
+        width: 360px;
+    
     }
 
     .logo {
-        text-align: center;
+        margin-left: 34px;
     }
 
     ul {
@@ -149,17 +157,23 @@ a {
         text-align: center;
     }
 
+    li {
+        padding: 2px;
+        margin-left: 0px;
+    }
+
     #form {
         text-align: center;
+        margin: 64px;
     }
 
     .email {
         margin-left: 10px;
+        text-align: center;
     }
 
     .main {
-        width: 375px;
-        margin: 0px;
+        width: 100%;
     }
 
     .icon {
@@ -167,11 +181,12 @@ a {
     }
 
     .container-4{
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .box {
         width: unset;
+        margin: 10px;
     }
 
     .footer {
