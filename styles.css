@@ -5,11 +5,13 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
     position: fixed;
     top: 0px;
+    left: 0px;
+    right: 0px;
     background-color: #eee;
-    width: 100%;
 }
 
 .nav-link {
@@ -33,16 +35,21 @@ a {
 }
 
 .main {
+    /* background-color: #EEEEEE; */
+    padding: 10px;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 75px;
+    
 }
 
 .container-1 {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    height: 250px;
+    align-items: center;
+    margin: 16px;
+    padding: 10px;
 }
 
 .email {
@@ -61,10 +68,11 @@ a {
     width: 120px;
     justify-content: center;
     font-weight: 900;
+    border: 0px;
 }
 
 .features {
-    margin-top: 0px;
+    margin: 15px;
 }
 
 .feature-title {
@@ -80,16 +88,16 @@ a {
 
 .icon {
     align-self: center;
-    margin-right: 10px;
 }
 
 .text {
-    margin-left: 46px;
+    margin-left: 36px;
 }
 
 .HowItWorks {
     text-align: center;
-    margin: 60px auto;
+    margin: 20px auto;
+    padding: 18px;
 }
 
 .container-4 {
@@ -98,8 +106,8 @@ a {
 }
 
 .box {
-    border: 2px solid black;
-    margin: 24px 10px;
+    border: 1px solid black;
+    margin: 10px 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,9 +121,12 @@ a {
     font-weight: bold;
 }
 
-.description {
-    margin: 10px 20px;
+.description-text {
+    display: block;
+    margin-bottom: 12px;
 }
+
+
 
 .button {
     background-color: yellow;
