@@ -1,5 +1,6 @@
 body {
     background-color: #EEEEEE;
+    margin-bottom: 0px;
 }
 
 .header {
@@ -37,11 +38,10 @@ a {
 .main {
     /* background-color: #EEEEEE; */
     padding: 10px;
-    width: 800px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 75px;
-    
 }
 
 .container-1 {
@@ -79,15 +79,13 @@ a {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .feature {
     display: flex;
-    margin: 10px auto;
-}
-
-.icon {
-    align-self: center;
+    margin: 28px auto;
+    align-items: center;
 }
 
 .text {
@@ -107,7 +105,7 @@ a {
 
 .box {
     border: 1px solid black;
-    margin: 10px 5px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,7 +138,7 @@ a {
     background-color: #ddd;
     padding: 20px;
     text-align: right;
-    width: 800px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -148,6 +146,13 @@ a {
 .footer-nav {
     justify-content: right;
 }
+
+.copyright {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #444;
+}
+
 
 @media screen and (max-width: 480px ) {
     .header {
