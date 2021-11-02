@@ -23,7 +23,7 @@ body {
 ul {
     display: flex;
     list-style: none;
-    margin: 0 20px;
+    margin: 0 12px;
 }
 
 li {
@@ -41,21 +41,21 @@ a {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 75px;
+    margin-top: 54px;
 }
 
 .container-1 {
     display: flex;
     justify-content: center;
-    margin: 46px;
-    padding: 10px;
+    margin: 20px;
+    padding: 4px;
 }
 
 .email {
     display: block;
     margin: auto;
-    padding: 10px;
-    width: 300px;
+    padding: 6px;
+    width: 260px;
     border-radius: 2px;
     border:  solid black 1px;
 }
@@ -72,8 +72,8 @@ a {
 }
 
 .features {
-    margin: 15px;
-    padding: 24px 0px;
+    margin: 40px;
+    padding: 30px 0px;
 }
 
 .feature-title {
@@ -85,7 +85,7 @@ a {
 
 .feature {
     display: flex;
-    margin: 54px auto;
+    margin: 64px auto;
     align-items: center;
 }
 
@@ -95,13 +95,17 @@ a {
 
 .HowItWorks {
     text-align: center;
-    margin: 20px auto;
-    padding: 18px;
+}
+
+#video {
+    width: 30vw;
+    height: 225px;
 }
 
 .container-4 {
     display: flex;
     text-align: center;
+    margin-top: 50px;
 }
 
 .box {
@@ -140,7 +144,7 @@ a {
     background-color: #ddd;
     padding: 20px;
     text-align: right;
-    width: 900px;
+    width: 900px; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -158,77 +162,62 @@ a {
 
 @media screen and (max-width: 480px ) {
     .header {
+        flex-wrap: wrap;
         flex-direction: column;
-        width: 400px;
-    }
-
-    .logo {
-        margin-left: 34px;
+        width: 100%;
     }
 
     ul {
         flex-direction: column;
-        text-align: center;
-    }
-
-    li {
-        padding: 2px;
-        margin-left: 0px;
-    }
-
-    #form {
-        text-align: center;
-        margin: 8px;
-    }
-
-    .email {
-        width: 248px;
     }
 
     .main {
         width: 100%;
+        margin-top: 74px;
     }
 
-    .features {
+    .container-1 {
         text-align: center;
-        margin: 0px;
-        padding: 0px;
     }
 
     .icon {
         display: none;
     }
 
-    .container-4{
-        flex-direction: column;
-    }
-
-    .box {
-        width: unset;
-        margin: 10px;
-    }
-
-    .footer {
-        width: 390px;
-    }
-
-    .footer-nav {
-        flex-direction: row;
+    #video {
+        width: 78vw;
     }
 
     .feature-title {
-        margin-left: 24px;
+        text-align: center;
+    }
+
+    .features {
+        margin: 16px;
+        padding: 0px;
     }
 
     .text {
         margin-left: 0px;
     }
 
-    .HowItWorks {
-        padding: 4px;
+    .container-4 {
+        flex-direction: column;
     }
 
-    
+    .box {
+        margin-left: 40px;
+        width: 80%;
+    }
+
+    .footer {
+        width: 90%;
+    }
+
+    .footer-nav {
+        flex-direction: row;
+    }
+
 }
  
     
