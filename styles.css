@@ -1,6 +1,5 @@
 body {
     background-color: #EEEEEE;
-    margin-bottom: 0px;
 }
 
 .header {
@@ -36,9 +35,8 @@ a {
 }
 
 .main {
-    /* background-color: #EEEEEE; */
     padding: 10px;
-    width: 900px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 54px;
@@ -144,7 +142,7 @@ a {
     background-color: #ddd;
     padding: 20px;
     text-align: right;
-    width: 900px; 
+    width: 880px; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -164,7 +162,6 @@ a {
     .header {
         flex-wrap: wrap;
         flex-direction: column;
-        width: 100%;
     }
 
     ul {
@@ -172,7 +169,7 @@ a {
     }
 
     .main {
-        width: 100%;
+        width: 90%;
         margin-top: 74px;
     }
 
@@ -211,7 +208,7 @@ a {
     }
 
     .footer {
-        width: 90%;
+        width: 80%;
     }
 
     .footer-nav {
